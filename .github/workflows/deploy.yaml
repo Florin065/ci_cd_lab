@@ -40,7 +40,8 @@ jobs:
       - name: Compile binary
         run: go build -o myapp
     needs: test
-    build:
+  
+  build:
     # Specify the OS for the runner
     runs-on: ubuntu-latest
 
