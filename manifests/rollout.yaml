@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/florin065/go-simple-webserver@sha256:ce9deb731e9325777ece15e1ccb163b597db742882380ba95bcfbfd19f518315
+          image: ghcr.io/florin065/ci_cd_lab@sha256:ce9deb731e9325777ece15e1ccb163b597db742882380ba95bcfbfd19f518315
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
